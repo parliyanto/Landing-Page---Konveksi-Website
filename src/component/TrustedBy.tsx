@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function TrustedBy() {
   const logos = [
-    { src: "/asset/pertamina.png", alt: "Pertamina" },
-    { src: "/asset/pln.png", alt: "PLN" },
-    { src: "/asset/infomedia.png", alt: "Infomedia" },
-    { src: "/asset/pelni.png", alt: "Pelni" },
-    { src: "/asset/wilmar.png", alt: "Wilmar" },
-    { src: "/asset/environesia.png", alt: "Environesia" },
-    { src: "/asset/bisma.png", alt: "Bisma" },
+    { src: "/asset/client/alkhairiyah.webp", alt: "alkhairiyah" },
+    { src: "/asset/client/cabin.jpg", alt: "cabinHotel" },
+    { src: "/asset/client/dimas.jpg", alt: "dimasSenopati" },
+    { src: "/asset/client/dirjen.jpg", alt: "dirjen" },
+    { src: "/asset/client/nurul.jpg", alt: "nurul" },
+    { src: "/asset/client/sany.jpg", alt: "sany" },
+    { src: "/asset/client/yappenda.jpg", alt: "yappenda" },
     { src: "/asset/krakatau.png", alt: "Krakatau Engineering" },
     { src: "/asset/greenlab.png", alt: "GreenLab" },
     { src: "/asset/bia.png", alt: "BIA" },

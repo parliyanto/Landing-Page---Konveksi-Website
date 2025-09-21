@@ -45,7 +45,7 @@ export default function Navbar() {
 
         {/* Tombol WhatsApp */}
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/6281387705284?text=Halo%20Admin,%20saya%20ingin%20konsultasi%20lebih%20lanjut%20soal%20Custom1n.co."
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block bg-gradient-to-r from-teal-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold hover:opacity-90 transition"

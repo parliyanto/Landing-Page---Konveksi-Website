@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Faq() {
   const faqs = [
     { q: "Minimal order berapa pcs?", a: "Minimal order adalah 24 pcs (untuk kaos reguler). Untuk partai besar bisa menyesuaikan." },
-    { q: "Apakah bisa dibuatkan Sample Produk?", a: "Ya, kami menyediakan sample produk sebelum produksi massal." },
+    // { q: "Apakah bisa dibuatkan Sample Produk?", a: "Ya, kami menyediakan sample produk sebelum produksi massal." },
     { q: "Berapa lama proses produksi di Custom1n.co?", a: "Waktu produksi normal adalah 7-14 hari kerja tergantung jumlah order." },
     { q: "Apakah bisa dibuatkan desain produk?", a: "Ya, kami memiliki tim desain untuk membantu visualisasi ide Anda." },
     { q: "Bagaimana cara Pembayarannya?", a: "Pembayaran melalui transfer bank atau e-wallet dengan sistem DP & pelunasan." },
@@ -15,7 +15,7 @@ export default function Faq() {
     { q: "Custom1n.co lokasinya dimana?", a: "Kami berlokasi di Jakarta Utara, dengan layanan pengiriman ke seluruh Indonesia." },
     { q: "Pengirimannya menggunakan apa dan berapa lama?", a: "Pengiriman melalui ekspedisi JNE, J&T, atau kargo sesuai kebutuhan." },
     { q: "Apakah bisa dikirimkan keluar kota?", a: "Tentu saja, kami melayani pengiriman ke seluruh wilayah Indonesia." },
-    { q: "Apakah ada garansi?", a: "Ya, kami memberikan garansi kualitas produk dan pengerjaan rapi." },
+    // { q: "Apakah ada garansi?", a: "Ya, kami memberikan garansi kualitas produk dan pengerjaan rapi." },
   ];
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);

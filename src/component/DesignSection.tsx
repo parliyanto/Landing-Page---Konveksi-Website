@@ -17,20 +17,20 @@ export default function DesignSection() {
           </p>
 
           <p className="mt-4 text-gray-700 text-lg italic">
-            <span className="font-bold not-italic">Custom1n.co siap membantu Anda</span> 
+            <span className="font-bold not-italic">Custom1n siap membantu Anda</span> 
             dalam mengolah ide Anda menjadi sebuah desain yang kreatif dan fungsional sehingga siap untuk diproduksi.
           </p>
 
           {/* Tombol */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <a
+            {/* <a
               href="#referensi"
               className="border-2 border-teal-500 text-teal-500 px-6 py-2 rounded-full font-medium hover:bg-teal-500 hover:text-white transition text-center"
             >
               Referensi Desain
-            </a>
+            </a> */}
             <a
-              href="#bantuan"
+              href="https://wa.me/6281387705284?text=Halo%20Admin,%20saya%20butuh%20bantuan%20desain."
               className="bg-gradient-to-r from-teal-400 to-blue-600 text-white px-6 py-2 rounded-full font-medium shadow hover:opacity-90 transition text-center"
             >
               Bantuan Desain

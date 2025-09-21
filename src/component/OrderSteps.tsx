@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Timeline() {
   const steps = [
-    { id: 1, img: "/asset/konten2.png", title: "Konsultasi & Mengisi Form", desc: "Informasikan kebutuhan Anda dan dapatkan penawaran harga terbaik dari bikin.co" },
-    { id: 2, img: "/asset/konten4.png", title: "Pembayaran DP & Persetujuan SPK", desc: "Bikin.co akan mengirimkan invoice DP dan SPK detail pesanan." },
-    { id: 3, img: "/asset/konten1.png", title: "Proses Produksi", desc: "Pesanan Anda ditangani oleh tim profesional bikin.co." },
+    { id: 1, img: "/asset/konten2.png", title: "Konsultasi & Mengisi Form", desc: "Informasikan kebutuhan Anda dan dapatkan penawaran harga terbaik dari Custom1n" },
+    { id: 2, img: "/asset/konten4.png", title: "Pembayaran DP & Persetujuan SPK", desc: "Custom1n akan mengirimkan invoice DP dan SPK detail pesanan." },
+    { id: 3, img: "/asset/konten1.png", title: "Proses Produksi", desc: "Pesanan Anda ditangani oleh tim profesional Custom1n" },
     { id: 4, img: "/asset/konten3.png", title: "Pelunasan & Pengiriman", desc: "Setelah pelunasan, pesanan akan dikirim ke alamat tujuan." },
   ];
 
@@ -19,7 +19,7 @@ export default function Timeline() {
         </h2>
         {/* Deskripsi */}
         <p className="mt-4 text-sm md:text-base max-w-3xl mx-auto leading-relaxed">
-          Kami tahu waktu anda sangat berharga. Tim <span className="font-semibold">Custom1n.co</span> siap membantu Anda setiap saat. 
+          Kami tahu waktu anda sangat berharga. Tim <span className="font-semibold">Custom1n</span> siap membantu Anda setiap saat. 
           Kami mendengarkan setiap kebutuhan Anda dan berkomitmen untuk memberikan solusi terbaik 
           dengan penuh perhatian.
         </p>

@@ -24,7 +24,7 @@ export default function ExpertiseSection() {
 
           <p className="mt-6 text-gray-700 text-lg leading-relaxed">
             Dengan menggunakan teknologi terkini dan tim produksi yang terampil, 
-            <span className="font-semibold"> Custom1n.co</span> menjamin proses produksi yang cepat 
+            <span className="font-semibold"> Custom1n</span> menjamin proses produksi yang cepat 
             dan hasil yang memuaskan.
           </p>
         </div>

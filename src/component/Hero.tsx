@@ -63,14 +63,14 @@ export default function Hero() {
         </h1>
 
         <p className="mt-4 text-lg md:text-xl text-gray-200">
-          Apapun kebutuhan baju anda, bikin di Custom1n.co aja!
+          Apapun kebutuhan baju anda, bikin di Custom1n aja!
         </p>
 
 {/* Buttons */}
 <div className="mt-8 flex flex-col sm:flex-row gap-4">
   {/* Outline Button */}
   <a
-    href="#layanan"
+    href="#services"
     className="w-auto min-w-[300px] border-2 border-white text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-medium hover:bg-white hover:text-black transition text-sm md:text-base text-center whitespace-nowrap"
   >
     Cek Layanan CUSTOM
@@ -78,12 +78,12 @@ export default function Hero() {
 
   {/* WhatsApp Button */}
   <a
-    href="https://wa.me/6281234567890"
+    href="https://wa.me/6281387705284?text=Halo%20Admin,%20saya%20ingin%20order%20beberapa%20produk%20di%20Custom1n.co."
     target="_blank"
     rel="noopener noreferrer"
     className="w-auto min-w-[300px] flex items-center justify-center gap-2 bg-gradient-to-r from-teal-400 to-blue-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-medium shadow hover:opacity-90 transition text-sm md:text-base whitespace-nowrap"
   >
-    <FaWhatsapp className="text-base md:text-lg" /> Customer Service
+    <FaWhatsapp className="text-base md:text-lg" /> Order By Whatsapp
   </a>
 </div>
 

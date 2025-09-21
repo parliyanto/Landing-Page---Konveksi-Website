@@ -39,9 +39,6 @@ export default function Footer() {
             <a href="#" className="p-2 rounded-full bg-white text-gray-800 hover:bg-blue-600 hover:text-white transition">
               <FaFacebook />
             </a>
-            <a href="#" className="p-2 rounded-full bg-white text-gray-800 hover:bg-green-600 hover:text-white transition">
-              <FaPhone />
-            </a>
           </div>
         </div>
 
@@ -49,23 +46,17 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Hubungi Kami</h3>
           <p>Email: info@custom1n.co</p>
-          <p>Sales Indiani: 0811 8060 102</p>
-          <p>Sales Anggi: 0852 8888 6020</p>
-          <p>Sales Tania: 0821 8888 9042</p>
-          <p>Keluhan Pelanggan: 0813 1184 8527</p>
+          <p>Owner Reza: 0813 8770 5284</p>
 
           <a
-            href="#"
-            className="inline-block mt-4 bg-gradient-to-r from-teal-500 to-blue-600 text-white px-5 py-2 rounded-full shadow hover:opacity-90 transition"
-          >
-            Customer Service
-          </a>
+          href="https://wa.me/6281387705284?text=Halo%20Customer%20Service,%20saya%20butuh%20informasi%20lebih%20lanjut."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-4 bg-gradient-to-r from-teal-500 to-blue-600 text-white px-5 py-2 rounded-full shadow hover:opacity-90 transition"
+        >
+          Customer Service
+        </a>
         </div>
-      </div>
-
-      {/* Bottom */}
-      <div className="bg-gray-900 text-center text-gray-400 py-4 text-sm">
-        © PT. BIKIN INDONESIA BERDAYA — {new Date().getFullYear()} | INDONESIA
       </div>
     </footer>
   );

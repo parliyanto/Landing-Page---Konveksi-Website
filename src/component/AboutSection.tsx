@@ -21,10 +21,8 @@ export default function AboutSection() {
 
         {/* Paragraf 2 */}
         <p className="mt-6 text-gray-700 text-lg italic leading-relaxed">
-          Apa saja yang bisa diproduksi di Custom1n.co? Segala produk dari kategori konveksi baju 
-          seperti kaos sablon, jersey, kaos polo, seragam kemeja kantor, kemeja casual, kemeja PDL, 
-          kemeja PDH, kemeja tactical, jaket bomber, jaket varsity, jaket jumper hoodie, jaket zipper hoodie, 
-          jas lab, blazer, jas almamater, celana kantor, celana chinos, celana jeans.
+          Apa saja yang bisa diproduksi di Custom1n? Segala produk dari kategori konveksi baju 
+          seperti kaos sablon, jersey, kaos polo.
         </p>
       </div>
     </section>

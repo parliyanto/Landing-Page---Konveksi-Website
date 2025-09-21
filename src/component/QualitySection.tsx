@@ -18,7 +18,7 @@ export default function QualitySection() {
           </p>
 
           <p className="mt-4 text-gray-700 text-lg leading-relaxed">
-            Inilah mengapa <span className="font-semibold">Custom1n.co mengutamakan kualitas dalam setiap tahap produksi</span>, 
+            Inilah mengapa <span className="font-semibold">Custom1n mengutamakan kualitas dalam setiap tahap produksi</span>, 
             dari desain hingga pengiriman akhir.
           </p>
         </div>

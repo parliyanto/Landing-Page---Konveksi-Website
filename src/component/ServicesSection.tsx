@@ -35,7 +35,7 @@ export default function ServicesSection() {
 
         {/* Bottom Text */}
         <p className="mt-12 text-gray-800 italic text-sm md:text-base">
-          <span className="font-bold not-italic">Custom1n.co</span> hadir untuk memberikan solusi terbaik 
+          <span className="font-bold not-italic">Custom1n</span> hadir untuk memberikan solusi terbaik 
           dengan layanan konveksi baju yang berkualitas dan terpercaya.
         </p>
       </div>
