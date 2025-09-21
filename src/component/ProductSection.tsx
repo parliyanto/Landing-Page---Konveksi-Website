@@ -76,19 +76,19 @@ export default function ProductSection({ title, products }: ProductSectionProps)
 
       {/* Modal Produk */}
       {selectedProduct && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
-          <div className="bg-white rounded-lg shadow-lg max-w-4xl w-full p-6 relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4">
+          <div className="relative bg-white rounded-lg shadow-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto p-6">
             {/* Tombol close */}
             <button
               onClick={() => setSelectedProduct(null)}
-              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700"
+              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-3xl"
             >
               ✕
             </button>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-6">
               {/* Gambar */}
-              <div className="relative w-full h-96">
+              <div className="relative w-full h-64 md:h-96">
                 <Image
                   src={selectedProduct.image}
                   alt={selectedProduct.name}
@@ -99,7 +99,7 @@ export default function ProductSection({ title, products }: ProductSectionProps)
 
               {/* Detail */}
               <div>
-                <h2 className="text-2xl font-bold mb-2 text-black">
+                <h2 className="text-xl md:text-2xl font-bold mb-2 text-black">
                   {selectedProduct.name}
                 </h2>
                 <p className="text-lg text-teal-600 mb-4">
@@ -107,7 +107,7 @@ export default function ProductSection({ title, products }: ProductSectionProps)
                 </p>
 
                 {/* Tabs */}
-                <div className="flex gap-6 border-b mb-4">
+                <div className="flex gap-6 border-b mb-4 text-sm md:text-base">
                   <button
                     onClick={() => setActiveTab("deskripsi")}
                     className={`pb-2 ${
@@ -151,17 +151,17 @@ export default function ProductSection({ title, products }: ProductSectionProps)
                   </ul>
                 )}
 
-              <a
-                href={`https://wa.me/6281387705284?text=${encodeURIComponent(
-                  `Halo Admin, saya tertarik dengan produk ${selectedProduct.name}. 
-              Boleh dibantu dengan informasi detail dan penawaran harganya?`
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-teal-500 text-white px-6 py-3 rounded-full shadow hover:opacity-90 transition"
-              >
-                Order / Konsultasi
-              </a>
+                <a
+                  href={`https://wa.me/6281387705284?text=${encodeURIComponent(
+                    `Halo Admin, saya tertarik dengan produk ${selectedProduct.name}. 
+Boleh dibantu dengan informasi detail dan penawaran harganya?`
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-teal-500 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow hover:opacity-90 transition text-sm md:text-base"
+                >
+                  Order / Konsultasi
+                </a>
               </div>
             </div>
           </div>
